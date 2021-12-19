@@ -11,7 +11,7 @@ body {
 }
 #main-ui {
   padding: 0 135px;
-  background-image: url("pictures/Background1.svg");
+  background-image: url("Background1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,6 +135,7 @@ h4 {
   padding: 2px 14px;
   margin-top: 75px;
   margin-bottom: 18px;
+  color: white;
 }
 .head h1 {
   font-weight: bold;
@@ -143,7 +144,7 @@ h4 {
 }
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .cards .crd {
   display: flex;
@@ -189,4 +190,99 @@ h4 {
 }
 .cards .crd:hover > .crd-child .exp {
   background-color: #5eae53;
+}
+
+/* Section 2 */
+.section2 .est {
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .est .scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 225px;
+}
+.section2 .est .scroll div:first-child {
+  margin-right: 28px;
+}
+.section2 .est .scroll .arrow {
+  width: 48px;
+  height: 48px;
+  background-color: #eb8e78;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head2 p {
+  width: 122px;
+  height: 32px;
+  display: inline-block;
+  font-size: 14px;
+  background: #5eae53;
+  border-radius: 8px;
+  padding: 8px 28px;
+  margin-top: 75px;
+  margin-bottom: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.head2 h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 14px;
+}
+.est {
+  padding: 0;
+  font-size: 16px;
+  line-height: 32px;
+  color: #817e7e;
+  margin-bottom: 37px;
+}
+.section2 .cards2 {
+  display: flex;
+  justify-content: space-between;
+}
+.crd-child2 {
+  position: relative;
+}
+.cards2 .crd2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 270px;
+  height: 320px;
+  background: #f3f3f3;
+  border-radius: 12px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+.cards2 h6 {
+  font-size: 24px;
+}
+.cards2 p {
+  font-size: 16px;
+}
+
+.cards2 .crd2 .crd-child2 .exp2 {
+  width: 92px;
+  height: 48px;
+  background-color: #eb8e78;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.cards2 .crd2 .crd-child2 .exp2 img {
+  width: 27px;
+  height: 27px;
 }
