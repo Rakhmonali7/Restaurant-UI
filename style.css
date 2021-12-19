@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto&family=Work+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+#main-ui {
+  padding: 0 135px;
+  background-image: url("pictures/Background1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  height: 80px;
+}
+.nav-img-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 426px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+#nav-button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 13px 36px;
+  color: white;
+  margin-right: 16px;
+}
+.welcome-page-container {
+  height: calc(100vh - 80px);
+  display: flex;
+  gap: 50px;
+}
+
+.welcome-text .search {
+  position: relative;
+  width: 400px;
+}
+.welcome-text .search button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #eb8e78;
+  border-radius: 12px;
+  height: 48px;
+  border: 2px solid white;
+  color: white;
+  padding: 13px 30px;
+  font-size: 16px;
+}
+.welcome-text .search input {
+  display: block;
+  height: 48px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+}
+.pin {
+  position: absolute;
+  bottom: 100px;
+  right: 265px;
+}
+.pic-social {
+  position: absolute;
+  bottom: 48px;
+  left: 135px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 48px;
+  color: white;
+}
+h5 {
+  color: #f6b76c;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Caveat", cursive;
+  margin-bottom: 15px;
+  margin-top: 90px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  color: #ffffff;
+  font-family: "Work Sans";
+  margin-bottom: 49px;
+}
+
+/* Body part 1 */
+
+#body1 {
+  padding: 0 135px;
+}
+
+.head {
+  text-align: center;
+}
+.head p {
+  display: inline-block;
+  font-size: 14px;
+  background: #5eae53;
+  border-radius: 8px;
+  padding: 2px 14px;
+  margin-top: 75px;
+  margin-bottom: 18px;
+}
+.head h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 51px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.cards .crd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 170px;
+  height: 240px;
+  background: #f3f3f3;
+  border-radius: 12px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+.crd-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  position: relative;
+}
+.cards .crd .crd-child .exp {
+  width: 40px;
+  height: 40px;
+  background-color: #afd3aa;
+  border-radius: 100px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cards .crd:hover {
+  background-color: #f49b3f;
+}
+.cards .crd:hover > p {
+  color: #ffffff;
+}
+.cards .crd:hover > .crd-child .exp {
+  background-color: #5eae53;
+}
