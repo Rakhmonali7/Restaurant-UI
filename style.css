@@ -318,6 +318,7 @@ h4 {
   width: 100%;
   height: 100vh;
   padding: 0 135px;
+  margin-bottom: 100px;
 }
 .section4 span {
   background-color: #5eae53;
@@ -378,4 +379,76 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+/* Footer */
+footer .upper {
+  background: #5eae53;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: -2;
+}
+
+footer .upper .l {
+  width: 570px;
+  height: 209px;
+}
+footer .upper .l h1 {
+  font-size: 70px;
+  line-height: 69px;
+  color: #ffffff;
+  margin-left: 135px;
+}
+footer .upper .r img {
+  position: absolute;
+  top: 0;
+  right: 132px;
+  z-index: -1;
+}
+
+/* Footer down */
+footer .down {
+  background: #333333;
+  width: 100%;
+  height: 400px;
+  padding: 75px 132px 45px 135px;
+}
+footer .down .u {
+  display: flex;
+  justify-content: space-around;
+}
+footer .down .u h1 {
+  font-size: 65px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 92px;
+}
+footer .down .u .mid {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  position: relative;
+  align-items: center;
+}
+
+footer .down .u .last p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 37px;
+}
+footer .down .u .last input {
+  width: 270px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  border: none;
 }
